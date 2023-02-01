@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/1.2.0/tailwind.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <img src="./assets/img/menu.png" alt="armotusitio.com" class="menu-wa">
+<div>
+    <form id="form-wa" class="whatsapp-menu">
+        <div class="form-wat">
+            <div class="row card-panel wa-panel">
+                <div class="input-field col s12 form-col">
+                    <label for="nombre" class="text-form01">Nombres:</label>
+                    <input type="text" name="nombres" id="nombres" class="validate name" required>
+                </div>
+                <div class="input-field col s12 form-col">
+                    <label for="apellido" class="text-form01">Apellido:</label>
+                    <input type="text" name="apellidos" id="apellidos" class="validate lastName" required>
+                </div>
+                <div class="input-field col s12 form-col">
+                    <label for="email" class="text-form01">EMail:</label>
+                    <input type="email" name="emails" id="emails" class="validate mail" required>
+                </div>
+                <div class="input-field col s12 form-col">
+                    <label for="prod" class="text-form01">Me interesa el producto con Codigo: </label>
+                    <input type="text" name="prod" id="producto" class="validate prod" required>
+                </div>
+                <div class="button-field col s12 form-col">
+                    <button id="submit" type="submit" class="boton botonWa">
+                        <i class="fab fa-whatsapp"></i> Enviar WhatsApp</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+<script src="./assets/js/spread.js"></script>
+<script src="./assets/js/helpers.js"></script>
+<script src="./assets/js/whatsapp.js"></script>
+</body>
+
+</html>
